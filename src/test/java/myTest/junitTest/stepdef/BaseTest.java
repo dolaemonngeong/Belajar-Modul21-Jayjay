@@ -1,4 +1,4 @@
-package stepdef;
+package myTest.junitTest.stepdef;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

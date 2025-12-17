@@ -1,9 +1,9 @@
-package stepdef;
+package myTest.junitTest.stepdef;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.When;
-import page.LoginPage;
+import myTest.junitTest.page.LoginPage;
 
 public class LoginStepDef extends BaseTest {
     LoginPage loginPage;

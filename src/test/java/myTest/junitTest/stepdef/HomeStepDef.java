@@ -1,7 +1,7 @@
-package stepdef;
+package myTest.junitTest.stepdef;
 
 import io.cucumber.java.en.Then;
-import page.HomePage;
+import myTest.junitTest.page.HomePage;
 
 public class HomeStepDef extends BaseTest {
     HomePage homePage;

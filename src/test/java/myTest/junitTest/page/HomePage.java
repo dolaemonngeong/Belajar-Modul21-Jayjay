@@ -1,4 +1,4 @@
-package page;
+package myTest.junitTest.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

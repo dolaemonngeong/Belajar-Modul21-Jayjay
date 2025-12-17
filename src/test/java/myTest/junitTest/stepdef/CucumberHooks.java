@@ -1,4 +1,4 @@
-package stepdef;
+package myTest.junitTest.stepdef;
 
 import org.junit.After;
 import org.junit.Before;
