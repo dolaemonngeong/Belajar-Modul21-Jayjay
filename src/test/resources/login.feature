@@ -7,14 +7,13 @@ Feature: Login
     And user input username with "standard_user"
     And user input password with "secret_sauce"
     When user click login button
-    #Then user will be on homepage
+    Then user is on homepage
 
   @invalid-login
-  Scenario: Login using valid username and password
+  Scenario: Login using invalid username and password
     Given user is on login page
-    And user input username with "standard_user"
-    And user input password with "secret_sauce"
+    And user input username with "std"
+    And user input password with "secretsauce"
     When user click login button
-    Then user is on login page
-    #And user see error message "Epic sadface: Username and password do not match any user in this service"
+    Then user see error message "Epic sadface: Username and password do not match any user in this service"
 

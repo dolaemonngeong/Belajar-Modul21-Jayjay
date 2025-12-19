@@ -2,6 +2,7 @@ package myTest.junitTest.stepdef;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import myTest.junitTest.page.LoginPage;
 
@@ -29,9 +30,8 @@ public class LoginStepDef extends BaseTest {
         loginPage.clickLoginButton();
     }
 
-    @And("user see error messege {string}")
-    public void userSeeErrorMessege(String errorMessage) {
+    @Then("user see error message {string}") // Fixed spelling
+    public void userSeeErrorMessage(String errorMessage) {
         loginPage.validateErrorMessage(errorMessage);
     }
-
 }
